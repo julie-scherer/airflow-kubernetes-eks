@@ -1,0 +1,25 @@
+/_*
+venv
+.env
+.DS_Store
+
+*.pyc
+
+# terraform files
+.terraform*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# airflow folders
+airflow/dags
+airflow/logs
+airflow/plugins
